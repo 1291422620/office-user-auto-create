@@ -3,6 +3,9 @@ name: Publish
 on:
   repository_dispatch:
 
+runs:
+  using: 'node12'
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
