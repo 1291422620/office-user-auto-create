@@ -3,9 +3,6 @@ name: Publish
 on:
   repository_dispatch:
 
-runs:
-  using: 'node16'
-
 jobs:
   deploy:
     runs-on: ubuntu-latest
